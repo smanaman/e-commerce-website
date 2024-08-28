@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Login Page</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+
+        }
+
+        .login-container {
+            width: 100%;
+            max-width: 400px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .login-container_2 {
+            width: 100%;
+            max-width: 400px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .login-container h1 {
+            margin-bottom: 24px;
+            color: #333;
+            font-size: 24px;
+        }
+
+        .login-container input {
+            width: 92%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+            transition: border 0.3s ease;
+        }
+
+        .login-container input:focus {
+            border: 1px solid #007BFF;
+            outline: none;
+        }
+
+        .login-container button {
+            width: 100%;
+            padding: 12px;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 4px;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .login-container button:hover {
+            background-color: #0056b3;
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        /* .login-container {
+            animation: slideIn 3s ease-out;
+        } */
+
+        @media (max-width: 600px) {
+            .login-container {
+                padding: 15px;
+            }
+
+            .login-container h1 {
+                font-size: 20px;
+            }
+
+            .login-container input,
+            .login-container button {
+                font-size: 14px;
+            }
+        }
+        .back{
+            margin-top: 20px;
+        }
+        .animate__animated.animate__fadeInUp {
+  --animate-duration: 5s;
+}
+    </style>
+</head>
+<body>
+    <div class="login-container_2">
+    <div class="login-container animate__animated animate__fadeInUp">
+        <h1>Login</h1>
+        <input type="text" placeholder="Username" required>
+        <input type="password" placeholder="Password" required>
+        <button type="submit">Login</button>
+     <a href="./index.html">   <button class="back" type="submit">Back to home page</button></a>
+
+    </div>
+</div>
+</body>
+</html>

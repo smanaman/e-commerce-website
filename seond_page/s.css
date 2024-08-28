@@ -234,25 +234,35 @@
     inline-size: 100%;
     block-size: 100%;
     object-fit: cover;
+    /* border: 1px solid black; */
+  
   }
 
   .card-1 {
     scale: 1;
+    /* border: 1px solid black; */
+    width: 500px;
   }
 
   .card-2 {
     translate: -35cqi 30cqb;
     opacity: 0.3;
+    /* border: 1px solid black; */
+    width: 400px;
   }
 
   .card-3 {
     translate: 0cqi 50cqb;
     opacity: 0.5;
+    /* border: 1px solid black; */
+    width: 400px;
   }
 
   .card-4 {
     translate: 45cqi 40cqb;
     opacity: 0.5;
+    /* border: 1px solid black; */
+    width: 400px;
   }
 
   .content-1 {
@@ -391,4 +401,29 @@
       opacity: 0;
     }
   }
+}
+.nav{
+  width: 100px;
+  /* border: 1px solid black; */
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav_2{
+  width: 40px;
+  /* border: 1px solid black; */
+  height: 40px;
+  border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #F2F2F2;
+}
+.nav_2 span{
+font-size: 1.5rem;
+font-weight: 700;
+}
+a{
+  text-decoration: none;
 }

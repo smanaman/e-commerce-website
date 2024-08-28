@@ -48,6 +48,7 @@
     border:var(--border_black);
     display: flex;
  justify-content: center;
+ cursor: pointer;
 }
 .main_div_2{
     width: 90%;
@@ -55,6 +56,8 @@
     border:var(--border_black);
     display: flex;
  justify-content: center;
+ cursor: pointer;
+
 }
 .main_div_3{
     width: 90%;
@@ -62,6 +65,8 @@
     border:var(--border_black);
     display: flex;
  justify-content: center;
+ cursor: pointer;
+
 }
 .main_div_4{
     width: 90%;
@@ -69,6 +74,8 @@
     border:var(--border_black);
     display: flex;
  justify-content: center;
+ cursor: pointer;
+
 }
 .main_div_5{
     width: 90%;
@@ -76,6 +83,8 @@
     border:var(--border_black);
     display: flex;
  justify-content: center;
+ cursor: pointer;
+
 }
 .firsrt_div{
   
@@ -84,7 +93,8 @@
     border:var(--border_black);
     display: flex;
  justify-content: center;
- 
+ cursor: pointer;
+
 }
 .firsrt_div_last{
     /* width: 70%; */
@@ -116,10 +126,10 @@
     align-items: center;
 }
 .hambuger_main{
-    /* border: var(--dark_border); */
+    /* border:1px solid black; */
     height: 90px;
     display: flex;
-    justify-content: end;
+    justify-content: center;
   
 }
 .hamburger{
@@ -127,7 +137,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* display: none; */
+    display: none;
 }
 
 /* shoes div */
@@ -643,7 +653,11 @@ border-radius: 10px;
 text-decoration: none;
 }
 
-
+.pages_a{
+  text-decoration: none;
+  color: #000;
+  }
+  
 
 
 
@@ -702,5 +716,43 @@ margin-right: -10px;
 }
 .heding_text_2 img{
   width: 300px;
+}
+.main_div{
+  display: none;
+}
+.main_div_1{
+  display: none;
+}
+.main_div_2{
+  display: none;
+}
+.main_div_3{
+  display: none;
+}
+.main_div_4{
+  display: none;
+}
+.main_div_5{
+  display: none;
+}
+.hamburger{
+  /* font-size: 25px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* display: none; */
+ 
+}
+.hambuger_main{
+  position: absolute;
+  right: 18px;
+}
+.right_img{
+  width: 190px;
+  border: none;
+}
+.right_img img{
+  width: 140px;
+  border: none;
 }
 }
