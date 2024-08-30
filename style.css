@@ -558,7 +558,7 @@ border-radius: 10px;
 .round{
   width: 100px;
   height: 100px;
-  border: 1px solid rgb(247, 234, 234);
+  /* border: 1px solid rgb(247, 234, 234); */
   border-radius: 50%;
   position: relative;
   top: -120px;
@@ -678,7 +678,7 @@ text-decoration: none;
 
 
 
-@media (width <=500px){
+@media  (width <=500px){
   .icon_2{
     width: 200px;
     height: 80px;
@@ -725,6 +725,102 @@ margin-right: -10px;
   /* border: 1px solid black; */
   position: relative;
   top: 10px;
+  left: -110px;
+}
+.shose_img img{
+  width: 250px;
+  height: 200px;
+}
+.heding_text_2 img{
+  width: 300px;
+}
+.main_div{
+  display: none;
+}
+.main_div_1{
+  display: none;
+}
+.main_div_2{
+  display: none;
+}
+.main_div_3{
+  display: none;
+}
+.main_div_4{
+  display: none;
+}
+.main_div_5{
+  display: none;
+}
+.hamburger{
+  /* font-size: 25px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* display: none; */
+ 
+}
+.hambuger_main{
+  position: absolute;
+  right: 18px;
+}
+.right_img{
+  width: 190px;
+  border: none;
+}
+.right_img img{
+  width: 140px;
+  border: none;
+}
+}
+
+@media screen and (min-width:768px) and (max-width:1100px){
+  .icon_2{
+    width: 200px;
+    height: 80px;
+    /* border: var(--border_black); */
+  text-align: center;
+ 
+  }
+  .deli{
+  /* border: 1px solid black; */
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.car{
+margin-top: 1px;
+}
+.dc{
+display: none;
+}
+.back_to_top_button{
+  display: none;
+}
+.text_div{
+  width: 300px;
+  height: 400px;
+  /* border: 1px solid black; */
+margin-right: -10px;
+}
+.run_img{
+  width: 320px;
+  height: 400px;
+/* border: 1px solid black; */
+  margin-top: 250px;
+  margin-left:30px;
+}
+.run_img img{
+  width: 170px;
+  height: 150px;
+}
+.shose_img{
+  width: 320px;
+  height: 430px;
+  /* border: 1px solid black; */
+  position: relative;
+  top: 230px;
   left: -110px;
 }
 .shose_img img{
